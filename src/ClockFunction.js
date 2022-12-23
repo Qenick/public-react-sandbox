@@ -34,8 +34,9 @@ function ClockFunction() {
     <div>
       <h1>{time.toFixed(2)}</h1>
       <h2>{isRunning ? "TAK" : "Nie"}</h2>
-      <button onClick={onClickStart}>Start</button>
-      <button onClick={onClickStop}>Stop</button>
+      {isRunning ? <button onClick={onClickStop}>Stop</button> : <button onClick={onClickStart}>Start</button>}
+
+      
       <button onClick={onClickReset}>Reset</button>
     </div>
   );

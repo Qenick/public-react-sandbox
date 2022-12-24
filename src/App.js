@@ -1,17 +1,15 @@
-import React, {Component} from "react";
+import React from "react";
 import './App.css';
-import ClockClass from "./ClockClass";
-import ClockFunction from "./ClockFunction";
+import Clocks from "./views/Clocks/Clocks";
+import PassingThoughts from "./views/PassingThoughts/PassingThoughts";
 
-class App extends Component {
-  render() {
+function App()  {
     return (
       <div>
-        <ClockClass />
-        <ClockFunction />
+        <PassingThoughts />
+        <Clocks/>
       </div>
     );
-  }
 }
 
 export default App;

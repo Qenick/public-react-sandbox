@@ -1,7 +1,7 @@
 //Codecademy-React CHILD COMPONENTS UPDATE THEIR PARENTS' STATE
 
 import React from 'react';
-import ReactDOM from 'react-dom';
+
 import { Child } from './Child';
 
 class StatelessComponentsUpdatingTheirParents extends React.Component {

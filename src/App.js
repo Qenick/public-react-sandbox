@@ -6,10 +6,14 @@ import StatelessComponentsUpdatingTheirParents
   from "./views/StatelessComponentsUpdatingTheirParents/StatelessComponentsUpdatingTheirParents";
 
 import SiblingUpdate from "./views/SiblingUpdate/SiblingUpdate";
+import VideoPlayer from "./views/VideoPlayer/VideoPlayer";
+import VideoPlayer2 from "./views/VideoPlayer2/VideoPlayer2";
 
 function App()  {
     return (
       <div>
+        <VideoPlayer />
+        <VideoPlayer2 />
         <PassingThoughts />
         <Clocks/>
         <StatelessComponentsUpdatingTheirParents />
